@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Sons de Eventos Personalizados</name>
+  <author>Eu</author>
+  <packageId>eu.sonseventos.personalizados</packageId>
+  <supportedVersions>
+    <li>1.5</li>
+    <li>1.6</li>
+  </supportedVersions>
+  <description>Substitui o som das cartas (eventos) por sons à tua escolha, com vários sons por evento (escolhidos ao acaso).
+
+Copia os teus sons (mp3, ogg ou wav) para a pasta da cor correspondente em Sounds/EventosCustom:
+verde (positivo), branco (neutro), amarelo (negativo), laranja (ameaça pequena), vermelho (ameaça grande).</description>
+</ModMetaData>

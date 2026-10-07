@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+  <!-- Verde (positivo) -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/LetterDef[defName="PositiveEvent"]/arriveSound</xpath>
+    <value><arriveSound>SE_Verde</arriveSound></value>
+  </Operation>
+
+  <!-- Branco (neutro) -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/LetterDef[defName="NeutralEvent"]/arriveSound</xpath>
+    <value><arriveSound>SE_Branco</arriveSound></value>
+  </Operation>
+
+  <!-- Amarelo (negativo) -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/LetterDef[defName="NegativeEvent"]/arriveSound</xpath>
+    <value><arriveSound>SE_Amarelo</arriveSound></value>
+  </Operation>
+
+  <!-- Laranja (ameaça pequena) -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/LetterDef[defName="ThreatSmall"]/arriveSound</xpath>
+    <value><arriveSound>SE_Laranja</arriveSound></value>
+  </Operation>
+
+  <!-- Vermelho (ameaça grande) -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/LetterDef[defName="ThreatBig"]/arriveSound</xpath>
+    <value><arriveSound>SE_Vermelho</arriveSound></value>
+  </Operation>
+
+</Patch>

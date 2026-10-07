@@ -1,0 +1,45 @@
+SONS DE EVENTOS PERSONALIZADOS (RimWorld)
+=========================================
+
+INSTALAR
+1. Descompacta esta pasta "SonsDeEventos".
+2. Copia a pasta inteira para a pasta Mods do RimWorld:
+   - Steam (Windows): C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods
+   - Mac: ~/Library/Application Support/Steam/steamapps/common/RimWorld/RimWorldMac.app/Mods
+   - Linux: ~/.steam/steam/steamapps/common/RimWorld/Mods
+   (Dica: no Steam, botão direito no RimWorld > Gerir > Explorar ficheiros locais, e abre a pasta Mods.)
+3. Abre o RimWorld > Mods > ativa "Sons de Eventos Personalizados" > reinicia o jogo.
+
+VÁRIOS SONS POR EVENTO (ALEATÓRIO)
+Dentro de  SonsDeEventos/Sounds/EventosCustom/  há uma pasta por cor:
+
+  verde      -> eventos positivos
+  branco     -> eventos neutros
+  amarelo    -> eventos negativos
+  laranja    -> ameaça pequena
+  vermelho   -> ameaça grande
+
+Cada pasta tem 2 ficheiros de teste (teste1.wav, teste2.wav).
+Para usar os teus sons:
+1. Apaga os ficheiros de teste da pasta da cor.
+2. Copia para lá TODOS os sons que quiseres (.mp3, .ogg ou .wav), com o nome que quiseres.
+   Ex.: copiar C:\Users\...\Music\volny8.mp3 para a pasta verde.
+3. Reinicia o jogo (os sons só são carregados ao arrancar).
+
+Quando acontece um evento dessa cor, o jogo escolhe ALEATORIAMENTE um dos sons da pasta.
+Se a pasta tiver só um som, toca sempre esse.
+
+O QUE ESTE MOD NÃO FAZ
+- Não lê sons diretamente de um endereço (C:\Users\...). Os ficheiros têm de ser copiados para as pastas acima.
+- Não tem ordem sequencial (1.º evento = som 1, 2.º evento = som 2...) nem botão para alternar
+  entre aleatório e sequencial. Isso exige um mod com código (C#).
+
+NOTAS
+- Usa sons curtos (1 a 5 segundos). Para ajustar o volume, muda "80~80" em Defs/Sons.xml.
+- Se outro mod também mexer nos sons das cartas, ganha o que estiver mais abaixo na lista de mods.
+- Se não ouvires nada: confirma que o mod está ativo, que reiniciaste o jogo e que os ficheiros estão
+  dentro da pasta da cor certa. Log do jogo: Ctrl+F12 (procura erros com "SE_" ou "EventosCustom").
+
+CORES (como o jogo as chama)
+  verde = PositiveEvent | branco = NeutralEvent | amarelo = NegativeEvent
+  laranja = ThreatSmall | vermelho = ThreatBig

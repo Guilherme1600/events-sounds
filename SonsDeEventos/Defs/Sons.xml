@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- Verde: evento positivo. Pasta: Sounds/EventosCustom/verde/ -->
+  <SoundDef>
+    <defName>SE_Verde</defName>
+    <context>Any</context>
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>EventosCustom/verde</clipFolderPath>
+          </li>
+        </grains>
+        <volumeRange>80~80</volumeRange>
+        <onCamera>true</onCamera>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <!-- Branco: evento neutro. Pasta: Sounds/EventosCustom/branco/ -->
+  <SoundDef>
+    <defName>SE_Branco</defName>
+    <context>Any</context>
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>EventosCustom/branco</clipFolderPath>
+          </li>
+        </grains>
+        <volumeRange>80~80</volumeRange>
+        <onCamera>true</onCamera>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <!-- Amarelo: evento negativo. Pasta: Sounds/EventosCustom/amarelo/ -->
+  <SoundDef>
+    <defName>SE_Amarelo</defName>
+    <context>Any</context>
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>EventosCustom/amarelo</clipFolderPath>
+          </li>
+        </grains>
+        <volumeRange>80~80</volumeRange>
+        <onCamera>true</onCamera>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <!-- Laranja: ameaça pequena. Pasta: Sounds/EventosCustom/laranja/ -->
+  <SoundDef>
+    <defName>SE_Laranja</defName>
+    <context>Any</context>
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>EventosCustom/laranja</clipFolderPath>
+          </li>
+        </grains>
+        <volumeRange>80~80</volumeRange>
+        <onCamera>true</onCamera>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <!-- Vermelho: ameaça grande. Pasta: Sounds/EventosCustom/vermelho/ -->
+  <SoundDef>
+    <defName>SE_Vermelho</defName>
+    <context>Any</context>
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>EventosCustom/vermelho</clipFolderPath>
+          </li>
+        </grains>
+        <volumeRange>80~80</volumeRange>
+        <onCamera>true</onCamera>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+</Defs>
